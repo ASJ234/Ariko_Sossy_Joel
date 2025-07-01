@@ -47,8 +47,4 @@ def post_to_twitter():
 schedule.every().day.at("12:00").do(post_to_twitter)
 
 if __name__ == "__main__":
-    print("Starting Twitter bot scheduler...")
-    # Run the scheduler in an infinite loop
-    while True:
-        schedule.run_pending()
-        time.sleep(60)  # Wait 60 seconds before checking again
+    post_to_twitter()
