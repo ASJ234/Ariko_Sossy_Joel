@@ -13,7 +13,7 @@ access_secret = "1i6p1iSt4ZUMo77v0IKMUq5uiJMyyj1ifyJGLF3SlBkTv"
 # Daily messages
 messages = [
     "Monday Motivation: Start your week with a positive mindset! #MondayMotivation",
-    "Tuesday Tips: Did you know that staying hydrated can boost your productivity? #TuesdayTips",
+    "Tuesday Thoughts: Keep pushing forward—progress is progress, no matter how small! #TuesdayThoughts",
     "Wednesday Wisdom: The only limit to our realization of tomorrow is our doubts of today. #WednesdayWisdom",
     "Thursday Thoughts: Take a moment to reflect on your goals and progress. #ThursdayThoughts",
     "Friday Fun: It's almost the weekend! What are your plans? #FridayFun",
