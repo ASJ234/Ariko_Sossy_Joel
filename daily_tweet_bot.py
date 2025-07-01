@@ -1,18 +1,14 @@
 import os
 import tweepy
 from datetime import datetime
-from dotenv import load_dotenv
 import schedule
 import time
 
-# Load the specific .env file
-load_dotenv(dotenv_path="codes.env")
-
-# Twitter API credentials
-api_key = os.getenv("TWITTER_API_KEY")
-api_secret = os.getenv("TWITTER_API_SECRET")
-access_token = os.getenv("TWITTER_ACCESS_TOKEN")
-access_secret = os.getenv("TWITTER_ACCESS_SECRET")
+# Twitter API credentials (hardcoded from codes.env)
+api_key = "focZYUIqcR6iwdgFwl9kn5mXm"
+api_secret = "bBGHMn7Pl2TQ7XrnLZsSyIJ8UEpIZzOOSgZtB9mrf7bU7E17Jp"
+access_token = "1623395378077831169-Ze3EAElkwBQUK4b89rCQuAnMGLnc7e"
+access_secret = "1i6p1iSt4ZUMo77v0IKMUq5uiJMyyj1ifyJGLF3SlBkTv"
 
 # Daily messages
 messages = [
